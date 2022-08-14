@@ -76,11 +76,11 @@ h1 {
   right: 2rem;
 }
 
-/* .again {
+.again {
   position: absolute;
   top: 2rem;
   left: 2rem;
-} */
+}
 
 .guess {
   background: none;
@@ -120,8 +120,8 @@ h1 {
 
 @media screen and (max-width: 425px) {
   .again {
-    padding: 10px 10px;
-    font-size: 16px;
-
+    position: absolute;
+    top: 100vh;
+    left: 30%;
   }
 }
